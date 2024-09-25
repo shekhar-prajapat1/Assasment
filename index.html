@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai and Snacks Shop Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chai and Snacks Shop Business Assessment</h1>
+        <form id="assessment-form">
+            <h2>Qualitative Questions</h2>
+            <label for="inspiration">What inspired you to start this chai and snacks shop?</label>
+            <textarea id="inspiration" name="inspiration" required></textarea>
+
+            <label for="duration">How long have you been in operation?</label>
+            <input type="text" id="duration" name="duration" required>
+
+            <label for="customers">Who are your primary customers?</label>
+            <input type="text" id="customers" name="customers" required>
+
+            <h2>Quantitative Questions</h2>
+            <label for="daily-revenue">What is your average daily revenue?</label>
+            <input type="number" id="daily-revenue" name="daily-revenue" required>
+
+            <label for="monthly-expenses">What are your estimated monthly expenses?</label>
+            <input type="number" id="monthly-expenses" name="monthly-expenses" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
